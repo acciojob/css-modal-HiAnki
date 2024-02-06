@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+
+  #openModal{
+    width: 200px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .modal{
+    position: absolute;
+    top: -50%;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.4s, top 0.4s;
+  }
+  
+  .modal-content{
+    margin: 20px;
+  }
+  .modal-header{
+    background-color: rgb(104, 173, 0);
+    text-align: center;
+    padding: 50px;
+  }
+  .modal-header>h2{
+    display: inline;
+    color: white;
+    font-size: 30px;
+  }
+  .close-modal{
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+  }
+  .modal-body{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .open-popup{
+    top: 20%;
+  }
